@@ -44,6 +44,14 @@ To use these configurations, extend them in your `tsconfig.json`:
 }
 ```
 
+## Development
+
+This package is published to GitHub Packages. Make sure you have the following in your `.npmrc`:
+
+```
+@octomatize:registry=https://npm.pkg.github.com/
+```
+
 ## License
 
 MIT
